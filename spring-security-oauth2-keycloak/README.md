@@ -1,4 +1,4 @@
-# Spring Security OAuth2 Keycloak Demo
+# A Demo Project for Spring Security OAuth2 Keycloak 
 
 This repository contains source code to demonstrate OAuth2 features using Spring Security and KeyCloak Authorization Server
 
@@ -12,10 +12,10 @@ This project contains examples for 3 OAuth2 Grant Types
 - PKCE Authorization Code Flow (oauth2-pkce-demo)
 - Client Credentials Flow (oauth2-client-credentials-demo)
 
-- ### Run Keycloak
+# Run Keycloak
     - Download Keycloak from https://www.keycloak.org/downloads
     - If you are using standalone version, run the following command, by making sure you are inside the bin directory
       `standalone.bat -Djboss.http.port=<port>`, you can provide whatever port number you like.
 
-- ### Importing Realm
+# Importing Realm
     - Instead of creating the realm, you can make use of the `oauth2-demo-realm-export.json` file to import all the realm details into your Keycloak instance.
